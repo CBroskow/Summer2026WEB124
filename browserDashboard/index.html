@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Week 6 Assignment</title>
+    <script src="dashboard.js"></script>
+  </head>
+  <body>
+    <h1>WEB 124</h1>
+    <h2>Week 6 Assignment</h2>
+    <h3>Craig Broskow</h3>
+    <h3>Favorite Website Heading</h3>
+    <p>Favorite Website Paragraph</p>
+    <form name="form">
+      <label for="username">Name:&ensp;</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="website">Favorite website:&ensp;</label>
+      <input type="text" size="60" id="website" name="website"><br><br>
+      <input type="submit" value="Submit" id="submit" name="submit"><br>
+    </form>
+    <p>Program output:<br></p>
+    <p style="height: 200px; width: 98%; overflow-y: scroll; border: 1px solid black; padding: 10px;" id="output">
+    </p>
+    <button type="button" onclick="forwardButton()">
+      Forward
+    </button>
+    <button type="button" onclick="backwardButton()">
+      Back
+    </button>
+  </body>
+</html>
